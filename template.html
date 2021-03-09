@@ -45,24 +45,21 @@
 
   <head>
     <style>
-      #one {
+      .bar {
         margin: -10px;
         height: 100px;
-        width: 500px;
-        background-color:black;
-      
+        width: 500px;      
       }
-      #two {
-        margin: -10px; 
-        height: 100px;
-        width: 500px;
+
+      #black {
+        background-color:black;
+      }
+
+      #red {
         background-color: #ff0000; 
       }
 
-      #three {
-        margin: -10px;
-        height: 100px;
-        width: 500px;
+      #gold {
         background-color: #ffd700;
       }
       
@@ -70,9 +67,9 @@
   </head>
 
   <body>
-    <div id='one'></div>
-    <div id='two'></div>
-    <div id='three'></div>
+    <div class='bar' id='black'></div>
+    <div class='bar' id='red'></div>
+    <div class='bar' id='gold'></div>
   </body>
 
 </html> -->
@@ -109,75 +106,55 @@
 </html> -->
 
 <!--Trial 5: Mixing and Matching-->
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
   <head>
     <style>
-      #top {
-        margin: -10px;
+      body {
+        margin: 0;
+      }
+
+      #red {
         background-color: #ff0000;
-        height: 200px;
-        width: 350px;
       }
 
-      #bottom {
-        margin: -10px;
+      #blue {
         background-color:blue;
+      }
+      
+      .bar {
         height: 200px;
         width: 350px;
       }
 
-      #top-left {
+      .box {
         display: inline-block;
         background-color: black;
-        margin: 40px 25px 50px 40px;
-        width: 100px;
-        height: 100px;
-
-      }
-
-      #top-right {
-        display: inline-block;
-        background-color: black;
-        margin: 40px 50px 50px 25px;
+        margin-left: 50px;
+        margin-top: 50px;
         width: 100px;
         height: 100px;
       }
 
-      #bottom-left {
-        display: inline-block;
-        background-color: black;
-        margin: 40px 25px 50px 40px;
-        width: 100px;
-        height: 100px;
-      }
-
-      #bottom-right {
-        display: inline-block;
-        background-color: black;
-        margin: 40px 50px 50px 25px;
-        width: 100px;
-        height: 100px;      
-      }
     </style>
   </head>
 
   <body>
-    <div id= "top">
-      <div id= "top-left"></div>
-      <div id= "top-right"></div>
+    <div class="bar" id= "red">
+      <div class="box"></div>
+      <div class="box"></div>
     </div>
-    <div id= "bottom">
-      <div id= "bottom-left"></div>
-      <div id= "bottom-right"></div>
+    <div class="bar" id= "blue">
+      <div class="box"></div>
+      <div class="box"></div>
     </div>
   </body>
 
-</html> -->
+</html>
 
 <!--Trial 6: Mixing and Mixing-->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
   <head>
@@ -226,7 +203,24 @@
     
   </body>
 
-</html>
+</html> -->
+
+<!--Trial 7: Vertical Aligning-->
+<!-- <!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      
+    </style>
+  </head>
+
+  <body>
+    <div>
+    </div>
+  </body>
+
+</html> -->
 
 <!-- <!DOCTYPE html>
 <html>
