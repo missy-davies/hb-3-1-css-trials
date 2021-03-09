@@ -206,7 +206,7 @@
 </html> -->
 
 <!--Trial 7: Vertical Aligning-->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
   <head>
@@ -284,20 +284,48 @@
     </div>
   </body>
 
-</html>
+</html> -->
 
-<!-- <!DOCTYPE html>
+<!--Trial 8: Vertical Aligning-->
+<!DOCTYPE html>
 <html>
 
   <head>
     <style>
-      
+      body {
+          margin: 0;
+      }
+
+      #background {
+        background-color: #cccccc;
+        height: 200px;
+        width: 900px;
+        margin: 0 auto;
+        padding: 15px 10px 15px 10px; 
+      }
+
+      .left,
+      .right,
+      .middle {
+          display: inline-block;
+          width: 180px;
+          height: 180px;
+          border: 10px double #555555;
+      }
+
+      .middle {
+          margin: 0 150px;
+          border-radius: 50%;
+          border-style: dotted;
+      }
+
     </style>
   </head>
 
   <body>
-    <div>
+    <div id = "background">
+        <div class = "left"></div><div class = "middle"></div><div class = "right"></div>
     </div>
   </body>
 
-</html> -->
+</html>
