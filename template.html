@@ -106,7 +106,7 @@
 </html> -->
 
 <!--Trial 5: Mixing and Matching-->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
   <head>
@@ -151,7 +151,7 @@
     </div>
   </body>
 
-</html>
+</html> -->
 
 <!--Trial 6: Mixing and Mixing-->
 <!-- <!DOCTYPE html>
@@ -206,21 +206,85 @@
 </html> -->
 
 <!--Trial 7: Vertical Aligning-->
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
   <head>
     <style>
-      
+
+      h1 {
+        font-family: sans-serif;
+      }
+
+      .bar {
+        background-color: #555555;
+        height: 130px;
+        width: 600px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .box {
+        background-color: #cccccc;
+      }
+    
+      #top .box {
+        width: 192px;
+        height: 118px;
+      }
+
+      #top {
+          align-items: center;
+      }
+
+      #middle .big {
+        width: 25%;
+        height: 100px;
+        margin: 6px 6px 0 6px;
+
+      }
+
+      #middle .small {
+        width: 25%;
+        height: 75px;
+        margin: 6px 0 6px 0;
+      }
+
+      #middle #end {
+        margin-right: 6px;
+      }
+
+      #bottom .box {
+        width: 50%;
+        margin: 6px;
+        margin-left: 0;
+      }
+
+      #bottom .box:nth-child(odd) {
+        height: 35px;
+        margin-top: 89px;
+        margin-left: 6px;
+      }
+
     </style>
   </head>
 
   <body>
-    <div>
+    <h1>AAAAAHHHHHH</h1>
+
+    <div class='bar' id="top">
+      <div class="box"></div><div class="box"></div><div class="box"></div>
+    </div>
+    <div class='bar' id="middle">
+      <div class="big box"></div><div class="small box"></div><div class="big box"></div><div class="small box" id="end"></div>
+    </div>
+    <div class='bar' id='bottom'>
+      <div class="box"></div><div class="box"></div>
     </div>
   </body>
 
-</html> -->
+</html>
 
 <!-- <!DOCTYPE html>
 <html>
